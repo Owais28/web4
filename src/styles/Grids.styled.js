@@ -14,11 +14,23 @@ export const GridOfTwo = styled.div`
 
 export const GridOfThree = styled.div`
   display : grid;
-  grid-template-columns : 1fr 1fr;
+  grid-template-columns : 1fr;
   grid-column-gap : 40px;
   grid-row-gap : 50px;
+  @media screen and (min-width : 747px) {
+    grid-template-columns : 1fr 1fr;
+    grid-column-gap : 50px;
+  }
   @media screen and (min-width : 991px) {
     grid-template-columns : 1fr 1fr 1fr;
     grid-column-gap : 50px;
   }
+`
+
+export const GridOfOne = styled.div`
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 50px;
+    justify-content: center;
+    align-items: center;
 `

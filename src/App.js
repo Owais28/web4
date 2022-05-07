@@ -1,12 +1,14 @@
 import React from 'react';
-import FeatersSection from './components/FeaturesSection';
+import FeaturesSection from './components/FeaturesSection';
 import Header from './components/Header';
+import MoreFeatures from './components/MoreFeatures';
 
 const App = () => {
     return (
         <>
             <Header/>
-            <FeatersSection/>
+            <FeaturesSection/>
+            <MoreFeatures/>
         </>
     );
 }

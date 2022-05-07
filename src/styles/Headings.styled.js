@@ -7,7 +7,7 @@ export const HeadingOne = styled.h1`
     }
   
     @media screen and (min-width:991px) {
-      font-size: 64px;
+      font-size: 90px;
     }
 `
 

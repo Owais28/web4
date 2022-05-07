@@ -37,6 +37,15 @@ export const ButtonPrimary = styled(Button)`
     margin-right : ${(props) => props.mgright};
     }
 `
+export const ButtonPrimaryWhite = styled(Button)`
+    background-color: white;
+    transition: all .2s ease;
+    color: black;
+    @media screen and (min-width : 991px) {
+
+    margin-right : ${(props) => props.mgright};
+    }
+`
 
 export const ButtonSecondary = styled(Button)`
     padding:15px 30px;
@@ -47,5 +56,17 @@ export const ButtonSecondary = styled(Button)`
     &:hover {
         background-color: black;
         color : white;
+    };
+`
+
+export const ButtonSecondaryWhite = styled(Button)`
+    padding:15px 30px;
+    border-radius: 100px;
+    border: 1px solid white;
+    background-color: transparent;
+    transition: all .2s ease;
+    &:hover {
+        background-color: white;
+        color : black;
     };
 `
