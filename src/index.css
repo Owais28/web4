@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 * {
   padding: 0;
@@ -7,7 +8,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -48,6 +49,8 @@ code {
   .font-display-1 {
     font-size: 64px;
   }
+
+  
 }
 
 .font-display-2 {
@@ -98,8 +101,15 @@ code {
   }
 }
 
+/* Line */
+p {
+  line-height: 1.6rem;
+  font-size: ;
+}
 /* paddings */
-
+.pt-3 {
+  padding-top: 45px;
+}
 .pt-5 {
   padding-top: 100px;
 }
@@ -136,5 +146,88 @@ ul {
 }
 
 .menu-icon:hover {
-  transform: scale(.9);
+  transform: scale(.8);
+}
+
+/* Hero Section */
+
+.hero-section {
+  
+}
+
+.hero-section h1 {
+  margin-bottom: 15px;
+}
+
+.hero-img {
+  width: 100%;
+  text-align: center;
+}
+
+.hero-img img {
+  width: 100%;
+}
+
+.btn-grp {
+  margin-top: 20px;
+  display: flex;
+  grid-row-gap: 15px;
+  flex-direction: column;
+}
+
+.btn {
+  padding:15px 30px;
+  border-radius: 100px;
+  border: none;
+  background-color: transparent;
+  transition: all .2s ease;
+
+}
+
+.btn-primary {
+  background-color: black;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: rgb(22, 136, 243);
+  transform: translateY(-5px);
+  border: 1px solid rgb(22, 136, 243);
+}
+
+.btn-secondary {
+  border: 1px solid black;
+}
+
+.btn-secondary:hover {
+  background-color: black;
+  color: white;
+  transform: translateY(-5px);
+}
+
+@media screen and (min-width : 991px){
+  .btn-grp {
+    flex-direction: row;
+  }
+
+  .btn {
+    margin-right: 10px;
+  }
+}
+/*  */
+
+/* Grid  */
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 50px;
+  grid-column-gap: 78px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width : 979px) {
+  .grid-2 {
+    grid-template-columns: 2fr 1fr;
+  }
 }
