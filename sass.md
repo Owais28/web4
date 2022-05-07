@@ -5,4 +5,6 @@
 - Partials
 - Modules
 - Mixins
-- Extend
+- Extend/Inheritance
+- Operators
+- 
