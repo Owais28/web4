@@ -30,7 +30,7 @@ export default function Header() {
                         <HeadingOne >Buy growing crypto right from your phone</HeadingOne>
                         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut dolor sit</p>
                         <ButtonGrp>
-                            <ButtonPrimary href='#'>Get Started</ButtonPrimary>
+                            <ButtonPrimary href='#' className='mr-2'>Get Started</ButtonPrimary>
                             <ButtonSecondary href='#'>Brows Featers</ButtonSecondary>
                         </ButtonGrp>
                     </div>

@@ -260,7 +260,40 @@ a {
   margin-top: 40px;
 }
 
+.mr-2 {
+  
+}
+
 .text-white .justify-start {
   justify-content: start;
   align-items: start;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.Icon {
+  font-size: 2.5rem;
+}
+
+.mockup-img img {
+  width: 100%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width:767px){
+  .mr-2 {
+    margin-right: 20px;
+  }
+  
 }
